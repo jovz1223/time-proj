@@ -1,0 +1,136 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+body {
+ margin: 5;
+ background-repeat:no-repeat;
+ font: 20px "Helvetica Neue";
+ background-size:cover;
+ text-align: center;
+ background-position: center;
+
+}
+
+/*/*.row {
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}*/
+
+/*#carousel-example-generic{
+	width: 1500px;
+	height: 500px;
+	margin-bottom: 20px;
+}
+
+#products{
+
+	display: inline;
+	width: 1500px;
+	height: 500px;
+	margin-top: 50px;
+}
+
+.thumbnail{
+	margin-right: 20px;
+	background-color: rgba(178, 171, 171, 0.2);
+	color: white;
+	margin-left: 5%;
+	margin-bottom: 10%;
+	visited:white;
+}
+
+.thumbnail>img{
+	height: 200px;
+	width: 300px;
+	margin-top: 20px;
+	color: white;
+}*/
+
+.container{
+	padding-top: 20px;
+
+}
+
+.carousel-inner>.item>a>img {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.navbar-inverse {
+	margin-bottom: 0;
+}
+
+.link1{
+
+	color:red;
+}
+
+/*
+.desc{
+width: 500px;
+height: auto;
+text-align: justify;
+margin: 50px auto;
+
+}
+
+.name{
+font-size: 25px;
+}
+
+.prod_img{
+	height: 400px;
+	width: 800px;
+	margin: 5% auto;
+}
+
+img {
+width: inherit;
+height: inherit;
+}	
+
+a:visited{
+	color: white;
+}
+
+body, p, ol, ul, td {
+font-family: verdana, arial, helvetica, sans-serif;
+font-size: 20px;
+line-height: 18px;
+color: white;
+}*/
+
+/*#signin{
+	text-align: left;
+}
+
+/*input, button, select, textarea {
+font-family: inherit;
+font-size: inherit;
+line-height: inherit;
+color: black;
+}*/
+
+/*#footer{*/
+
+/*	color:black;
+	background-color: white;
+}*/
+
+

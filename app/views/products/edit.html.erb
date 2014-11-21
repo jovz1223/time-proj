@@ -1,0 +1,32 @@
+<nav class="navbar navbar-inverse" role="navigation">
+  <ul class="nav nav-tabs">
+    <li role="presentation"><a href="/products.html">Home</a></li>
+    <!-- <li role="presentation"><a href="/aboutus.html">About Us</a></li> -->
+    <li role="presentation"><a href="/contact.html">Contact us</a></li>
+      <% if current_user %> 
+      <li class="nav navbar-nav navbar-right" role="presentation"><a href="manager/manage">Manage</a></li>
+
+      <li class="nav navbar-nav navbar-right" role="presentation">
+      <%= link_to('Logout', destroy_user_session_path, :method => :delete) %></li>
+
+    <% end %>
+  </ul>
+  </nav>
+
+
+
+    <% if notice %>
+      <p class="alert alert-success"><%= notice %></p>
+    <% end %>
+    <% if alert %>
+      <p class="alert alert-danger"><%= alert %></p>
+    <% end %>
+
+
+
+<h1>Editing product</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', @product %> |
+<%= link_to 'Back', products_path %>
